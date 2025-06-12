@@ -1,4 +1,4 @@
-# Untying the Gordian Knot of Bayesian Inference in Markov Networks
+# [Untying the Gordian Knot of Bayesian Inference in Markov Networks](https://luizdesuo.github.io/phd_presentation_luiz_2025/)
 
 Signal Processing Laboratory • Department of Electrical and Computer Engineering • São Carlos School of Engineering • University of São Paulo
 
