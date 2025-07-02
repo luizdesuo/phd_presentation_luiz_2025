@@ -364,7 +364,7 @@ width: 60%
 
   - Data transformation [^1]
 
-  $$Y = \frac{X - A}{B - A}$$
+  $$Y = \frac{X - A(X)}{B(X) - A(X)}$$
 
   - Bernstein basis
 
