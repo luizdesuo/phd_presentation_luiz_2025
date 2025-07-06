@@ -49,7 +49,7 @@ Signal Processing Laboratory • Department of Electrical and Computer Engineeri
 
 - **Structured probabilistic models (SPMs)**
   - Integrate probability theory and network theory to model complex multivariate distributions
-  - Enable explainable, auditable, robust AI via explicit stochastic structure
+  - Enable explainable (XAI), auditable, robust AI via explicit stochastic structure
 - **Core families**
   - **Bayesian networks (BNs)**: directed acyclic graphs -- generative semantics
   - **Markov random fields (MRFs)**: undirected graphs -- symmetric dependencies (spatial data)
@@ -57,8 +57,8 @@ Signal Processing Laboratory • Department of Electrical and Computer Engineeri
   - Decouple marginals and dependence (Sklar’s theorem)
   - Vine/cherry-tree decompositions into tractable low-order building blocks
 - **Inference challenge -- MRFs**
-  - Intractable partition function and doubly intractable posterior: $p(\boldsymbol{\theta} \mid \mathbf{x}) = \frac{1}{\underbrace{Z(\mathbf{X}) Z(\boldsymbol{\theta})}_{\text{double intractability}}} p(\boldsymbol{\theta}) q(\mathbf{x}, \boldsymbol{\theta})$
-- **Thesis goal**: circumvent partition-function bottleneck while preserving probabilistic coherence for MRF methods
+  - Doubly intractable posterior and noninterpretable potentials: $p(\boldsymbol{\theta} \mid \mathbf{x}) = \frac{1}{\underbrace{Z(\mathbf{X}) Z(\boldsymbol{\theta})}_{\text{double intractability}}} p(\boldsymbol{\theta}) q(\mathbf{x}, \boldsymbol{\theta})$
+- **Thesis goal**: circumvent partition-function bottleneck while preserving probabilistic coherence for MRF methods (interpretability)
 
 
 ---
