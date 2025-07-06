@@ -724,10 +724,10 @@ width:  100%
 # Discussion and conclusions
 
 - **Semiparametric marginal estimation (Bernstein–Dirichlet)**
-  - **Advantages:** smooth joint PDF/CDF estimation • monotonic CDF by construction • boundary correction
+  - **Advantages:** smooth joint PDF/CDF estimation • monotonic CDF by construction
   - **Limitations:** *sensitive* to prior choice • heavy tails • disjoint supports • narrow multimodal densities
 - **Bayesian nonparanormal network architecture**
-  - **Advantages:** outperformed baselines in expected LOO-CV predictive accuracy • adaptive multi-scale spatial dependency via SPDE hyperparameters • semiparametric marginal modeling • spectral governance of spatial dependence resolves limitations of static adjacency-based models
+  - **Advantages:** outperformed baselines in expected LOO-CV predictive accuracy • semiparametric marginal modeling • spectral governance of spatial dependence resolves limitations of static adjacency-based models
   - **Limitations:** Cholesky $\mathcal{O}(d^2) \text{--} \mathcal{O}(d^{3/2})$ • no tail dependence • Bernstein–Dirichlet limitations
 - **Innovations and broader implications**
   - **Copula‐based Besag's pseudolikelihood:** partition-free MRF inference
@@ -746,7 +746,7 @@ width:  100%
 - Dynamic Bernstein-Dirichlet univariate models
 - Conditional Bernstein-Dirichlet models
 - Integration with machine learning architectures (Bayesian deep learning)
-- Multivariate and cross‑variable extremes (copula families)
+- Other copula families
 - Scalable inference for large‑scale networks
 
 
